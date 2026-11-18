@@ -93,7 +93,7 @@ h1 {
 .welcome-text { text-align: center; padding-top: 0.25rem; }
 .welcome-text h1 { font-size: clamp(2.2rem, 4vw, 3rem); margin: 0; }
 .hello { max-width: 34rem; margin: 0.8rem auto 1.3rem; font-size: 1.15rem; }
-.key-link { margin: 0.3rem 0; font: 600 1.02rem/1.5 var(--sans); }
+.key-link { margin: 0.55rem 0; font: 600 1.15rem/1.5 var(--sans); }
 .key-link a { color: var(--ink); }
 .key-link a:hover { color: var(--link); }
 .facts { max-width: 34rem; margin: 1.5rem auto 0; text-align: left; font-size: 1rem; }
@@ -108,16 +108,6 @@ h1 {
 .social a:hover { background: var(--link); }
 .social svg { width: 1rem; height: 1rem; fill: currentColor; }
 
-/* Home, bottom: one quiet pointer to the practice report on teaching with generative AI */
-.also { margin-top: 3rem; }
-.feature { display: grid; grid-template-columns: 9rem minmax(0, 1fr); gap: 0 1.25rem; align-items: center; max-width: 44rem; padding-top: 1.5rem; border-top: 1px solid var(--mist); color: var(--ink); text-decoration: none; }
-.feature img { display: block; width: 9rem; height: auto; aspect-ratio: 3 / 2; object-fit: cover; border-radius: 4px; background: #fff; box-shadow: 0 0 0 1px var(--mist); }
-.feature-text { display: block; }
-.feature-label { display: block; font: 600 0.82rem/1.4 var(--sans); color: var(--muted); }
-.feature-title { display: block; margin: 0.1rem 0 0.2rem; font: 1.25rem/1.3 var(--subhead); }
-.feature-desc { display: block; font: 0.92rem/1.5 var(--sans); color: var(--muted); }
-.feature:hover .feature-title { color: var(--link); text-decoration: underline; }
-.feature:hover img { box-shadow: 0 0 0 2px var(--link); }
 
 /* Subpages */
 .page { padding-top: 0; }
@@ -204,9 +194,6 @@ h2 { font: 400 2.2rem/1.15 var(--heading); margin: 0 0 1.25rem; letter-spacing: 
   .banner { margin-top: 1rem; }
   .welcome { grid-template-columns: minmax(0, 1fr); gap: 1.25rem; margin-top: 1.5rem; }
   .portrait { width: 12rem; margin: 0 auto; }
-  .also { margin-top: 2.25rem; }
-  .feature { grid-template-columns: 6.5rem minmax(0, 1fr); gap: 0 0.9rem; }
-  .feature img { width: 6.5rem; }
   .page .page-title { margin-top: 1.5rem; }
   .scenery { margin-top: 2.5rem; }
   .timeline > div { grid-template-columns: minmax(0, 1fr); gap: 0.15rem; }
